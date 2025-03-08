@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guitar Hero - Prototipo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Guitar Hero - Prototipo</h1>
+    <div id="game-container">
+        <div class="cuerda" id="cuerda1"></div>
+        <div class="cuerda" id="cuerda2"></div>
+        <div class="cuerda" id="cuerda3"></div>
+        <div class="cuerda" id="cuerda4"></div>
+        <div id="area-activacion"></div>
+    </div>
+    <p>Puntuación: <span id="score">0</span></p>
+    <button id="start">Iniciar Juego</button>
+    <button id="pause">Pausar Juego</button>
+
+    <audio id="sound1" src="sounds/note1.mp3"></audio>
+    <audio id="sound2" src="sounds/note2.mp3"></audio>
+    <audio id="sound3" src="sounds/note3.mp3"></audio>
+    <audio id="sound4" src="sounds/note4.mp3"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
